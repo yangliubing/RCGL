@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/mui.min.js"></script>
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			//var question = document.getElementById('question').value();
+		</script>
+		<style>
+			.mui-btn-green{
+				width: 95%;
+				margin:  0 ;
+			}
+			p{
+				font-size: 17px;
+				padding-left: 8px;
+			}
+			.margin_top{
+				margin-top: 20px;
+			}
+			#submit{
+				font-size: 18px;
+				letter-spacing: 4px;
+				margin-left: 2%;
+			}
+			.question{
+				height: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">给我留言</h1>
+		</header>
+		<div class="mui-content">
+		    <p class="margin_top">问题和意见</p>
+				<div class="row mui-input-row">
+					<textarea id='question' class="mui-input-clear question" placeholder="请详细描述你的问题和意见..."></textarea>
+				</div>
+				<p>QQ/邮箱</p>
+				<div class="mui-input-row">
+					<input id='contact' type="text" class="mui-input-clear  contact" placeholder="选填,方便我们联系你" />
+				</div>
+				<button id='submit' type="button" class="mui-btn mui-btn-green">提交</button>
+		</div>
+	</body>
+
+</html>
